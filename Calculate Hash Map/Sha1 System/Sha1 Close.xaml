@@ -50,7 +50,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe SHA1'" sap:VirtualizedContainerService.HintSize="414,292" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="5da805a72cac5f1edc0ead78dc81b233" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='SHA1 online - Internet Explorer' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe SHA1'" sap:VirtualizedContainerService.HintSize="414,292" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="5da805a72cac5f1edc0ead78dc81b233" Selector="&lt;html title='SHA1 online' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

@@ -73,7 +73,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If Condition="[in_TransactionNumber&lt;= dt_Vendor.Count]" DisplayName="If a new Item is fetched Grab it's significant data for logging" sap:VirtualizedContainerService.HintSize="531,474" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[in_TransactionNumber &lt;= dt_Vendor.Count]" DisplayName="If a new Item is fetched Grab it's significant data for logging" sap:VirtualizedContainerService.HintSize="531,474" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence sap2010:Annotation.AnnotationText="Write data to the added fields that identify the Transaction" DisplayName="Write Transaction info in Logging Fields" sap:VirtualizedContainerService.HintSize="264,326" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
@@ -106,7 +106,7 @@
             <OutArgument x:TypeArguments="sd:DataRow">[out_TransactionItem]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:Object">[Nothing]</InArgument>
+            <InArgument x:TypeArguments="sd:DataRow">[Nothing]</InArgument>
           </Assign.Value>
         </Assign>
       </If.Else>
