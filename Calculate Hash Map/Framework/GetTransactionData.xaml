@@ -87,7 +87,7 @@
               <OutArgument x:TypeArguments="sd:DataRow">[out_TransactionItem]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="sd:DataRow">[dt_Vendor(in_TransactionNumber)]</InArgument>
+              <InArgument x:TypeArguments="sd:DataRow">[dt_Vendor(in_TransactionNumber-1)]</InArgument>
             </Assign.Value>
           </Assign>
           <Assign DisplayName="Assign TransactionField1" sap:VirtualizedContainerService.HintSize="242,60" sap2010:WorkflowViewState.IdRef="Assign_2">
