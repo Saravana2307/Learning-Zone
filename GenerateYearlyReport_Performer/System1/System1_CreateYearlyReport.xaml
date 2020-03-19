@@ -3,7 +3,7 @@
     <x:Property Name="in_TaxID" Type="InArgument(x:String)" />
     <x:Property Name="in_Year" Type="InArgument(x:String)" />
     <x:Property Name="in_ReportsDownloadPath" Type="InArgument(x:String)" />
-    <x:Property Name="out_YearlyReportPath" Type="InArgument(x:String)" />
+    <x:Property Name="out_YearlyReportPath" Type="OutArgument(x:String)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />

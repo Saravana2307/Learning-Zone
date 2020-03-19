@@ -113,7 +113,7 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_TaxID">[TaxID]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_Year">[ReportYear.ToString]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_ReportsDownloadPath">[in_Config("ReportsDownloadPath").ToString]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="out_YearlyReportPath">[YearlyReportPath]</InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_YearlyReportPath">[YearlyReportPath]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke System1_NavigateToDashBoard workflow" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="System1\System1_NavigateToDashBoard.xaml">
